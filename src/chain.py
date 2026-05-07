@@ -1,4 +1,4 @@
-from model import structured_llm
+from src.model import structured_llm
 from langchain_core.prompts import ChatPromptTemplate
 
 prompt = ChatPromptTemplate.from_messages([

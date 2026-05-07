@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv 
 import boto3
 from langchain_aws import ChatBedrock
-from schema import CompanyList
+from src.schema import CompanyList
 
 load_dotenv()
 

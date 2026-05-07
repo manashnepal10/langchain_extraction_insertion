@@ -1,5 +1,5 @@
-from chain import extraction_chain
-from agent import agent_executor
+from src.chain import extraction_chain
+from src.agent import agent_executor
 
 with open("essay.txt", "r") as f:
     content = f.read()

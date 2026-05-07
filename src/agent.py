@@ -1,6 +1,6 @@
-from database import insert_company
+from src.database import insert_company
 from langchain.agents import create_agent
-from model import llm
+from src.model import llm
 
 tools = [insert_company]
 
